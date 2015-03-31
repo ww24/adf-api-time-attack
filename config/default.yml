@@ -1,0 +1,19 @@
+server:
+  host: ec2-52-68-44-155.ap-northeast-1.compute.amazonaws.com
+  port: 3000
+
+session:
+  name: connect.sid
+  cookie:
+    path: /
+    httpOnly: true
+    secure: false
+    maxAge: null
+  secret: secret
+
+db:
+  host: 127.0.0.1
+  port: 27017
+  name: api
+  user: api
+  pass: db_pass

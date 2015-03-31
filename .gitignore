@@ -1,0 +1,14 @@
+# Node.js
+node_modules
+*.log
+
+# Git
+.*
+!.gitignore
+!.gitkeep
+!.editorconfig
+!.jshintrc
+
+# Settings
+config/*
+!config/default.yml
